@@ -1,3 +1,7 @@
+/**
+ * Convert HSL to HEX values
+ */
+
 var toRgb = require('hsl-to-rgb-for-reals')
 
 function max (val, n) {
@@ -18,6 +22,13 @@ function cycle (val) {
   return val
 }
 
+/**
+ * Main function
+ *
+ * @param {!integer} hue
+ * @param {!integer} saturation
+ * @param {!integer} luminosity
+ */
 function hsl (hue, saturation, luminosity) {
   // resolve degrees to 0 - 359 range
   hue = cycle(hue)
