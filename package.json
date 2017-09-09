@@ -1,12 +1,26 @@
 {
   "name": "hsl-to-hex",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node cookbook hsl to hex module example",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonistor/hsl-to-hex.git"
+  },
   "keywords": [],
   "author": "Leo Nistor <leo.nistor@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonistor/hsl-to-hex/issues"
+  },
+  "homepage": "https://github.com/leonistor/hsl-to-hex#readme",
+  "dependencies": {
+    "hsl-to-rgb-for-reals": "^1.1.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
 }
