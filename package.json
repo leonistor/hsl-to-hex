@@ -23,13 +23,13 @@
     "hsl-to-rgb-for-reals": "^1.1.0"
   },
   "devDependencies": {
-    "esdoc": "^1.0.2",
-    "esdoc-standard-plugin": "^1.0.0",
     "standard": "^10.0.3"
   },
   "esdoc": {
-    "source": "./",
-    "excludes": ["node_modules"],
+    "source": ".",
+    "excludes": [
+      "node_modules"
+    ],
     "destination": "./docs",
     "plugins": [
       {
