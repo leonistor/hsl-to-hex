@@ -4,7 +4,7 @@
   "description": "Node cookbook hsl to hex module example",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint",
+    "test": "npm run lint && tap --cov test",
     "lint": "standard",
     "doc": "documentation build index.js -f html -o docs"
   },
@@ -23,6 +23,7 @@
     "hsl-to-rgb-for-reals": "^1.1.0"
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "standard": "^10.0.3",
+    "tap": "^10.7.2"
   }
 }
